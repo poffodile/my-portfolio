@@ -14,6 +14,7 @@ const HeaderSection = () => {
             </span>
             <br />
             <span className="text-white">
+              {/* <div className="w-full min-w-[300px] sm:min-w-[400px] lg:min-w-[500px]"> */}
               <TypeAnimation
                 sequence={[
                   " Precious,",
@@ -27,9 +28,10 @@ const HeaderSection = () => {
                 ]}
                 wrapper="span"
                 speed={30}
-                // style={{ fontSize: "2em sm:text-xl", display: "inline-block" }}
+                style={{ fontSize: "2em sm:text-xl", display: "inline-block" }}
                 repeat={Infinity}
               />
+              {/* </div> */}
             </span>
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">

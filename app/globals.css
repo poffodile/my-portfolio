@@ -15,7 +15,7 @@
   --gold-light: #E8C97A;
   --background: #0A0A0A;
   --card: #111111;
-  --border: #222222;
+  --border: #333333;
   --text-main: #F5F5F5;
   --text-muted: #A0A0A0;
 }
@@ -24,6 +24,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: background 0.3s ease;
 }
 
 body {
@@ -31,4 +32,9 @@ body {
   color: var(--text-main);
   font-family: sans-serif;
   min-height: 100vh;
+}
+
+.dark body {
+  background: linear-gradient(135deg, #0A0A0A 0%, #1A1200 50%, #2C1A00 100%);
+  color: var(--text-main);
 }
